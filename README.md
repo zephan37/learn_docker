@@ -59,7 +59,7 @@ docker container create \
         --device=/dev/dri/card1:/dev/dri/card1 \    //显卡
         --device=/dev/snd:/dev/snd \                //声卡
         parsec-img \
-        parsecd
+        /bin/bash
   ```
 #### 列出所有容器
  ```
